@@ -5,7 +5,7 @@ import codecs
 import re, datetime
 import argparse
 from bs4 import BeautifulSoup
-
+import urllib2
 
 def extract_summary(input_filenames, output_folder):
     for index, filename in enumerate(input_filenames):

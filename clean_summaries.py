@@ -1,6 +1,6 @@
 import os, sys
 import codecs
-
+import argparse
 
 def clean_summaries(input_folder, output_folder):
     for filename in os.listdir(input_folder):
